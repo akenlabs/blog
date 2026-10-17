@@ -26,6 +26,8 @@ exclude:
   - vendor
   - .github
 
+cloudflare_analytics_token: "4f54ccaaa12b460eac8b4fd3a6b4f264"
+
 defaults:
   - scope:
       path: ""
