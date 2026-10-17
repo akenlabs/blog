@@ -32,3 +32,7 @@ Push to `main`. The workflow in `.github/workflows/pages.yml` builds the site an
 ## Content boundary
 
 Only publishable material belongs here. No credentials, internal endpoints, customer data, or private workspace paths.
+
+## Draft 与发布
+
+未完成的文章用 `published: false`（Jekyll 只认这个字段；`draft: true` 是 Hugo 语法，无效）。发布前改成 `true` 或删掉该行。
