@@ -1,0 +1,19 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+description: "All topics on Ken's Blog."
+---
+{% if site.tags.size > 0 %}
+<ul class="tag-index">
+  {% assign tags = site.tags | sort %}
+  {% for tag in tags %}
+  <li class="tag-index-item">
+    <span class="tag">{{ tag[0] }}</span>
+    <span class="tag-count">{{ tag[1].size }}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty-state">No tags yet.</p>
+{% endif %}
