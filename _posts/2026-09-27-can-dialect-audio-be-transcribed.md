@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "客家话&方言音频可以转录吗？"
+title: "客家话与方言音频可以转录吗？"
 date: 2026-09-27 00:00:00 +0800
 tags: [AI]
 description: "亲测客家话用 qwen-audio 方言转录效果不错，千问与讯飞都值得一试。"
